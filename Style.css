@@ -1,0 +1,105 @@
+body{
+    background-image: url("images/Pic_2019_01_27_15_15_57.jpg");
+    background-repeat: no-repeat;
+    background-size: cover ;
+    text-align: justify;
+    font-family: "charm", cursive;
+    margin: "none";
+    background-color:green;
+    
+}
+#menu{
+    margin: 10px;
+    display: flex;
+    flex-direction: row-reverse;
+    width:100%;
+    
+}
+.item{
+    animation-name: red-to-black;
+    animation-duration:10s;
+    animation-iteration-count:infinite;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    padding:5px;
+    margin: 10px;
+    width:8%;
+    text-align: center;
+    font-size: 100%;
+    background-color:rgb(194, 181, 2);
+    text-transform: capitalize;
+}
+.title1{
+    display: inline;  
+    color: rgba(0, 124, 41)
+}
+.title1:hover{
+    color: rgb(0, 255, 0);
+}
+h2 {
+    display: inline;
+    color: rgba(0, 124, 41)
+}
+
+#line{
+    color:rgba(0, 124, 41);
+}
+.clinks:link{
+    font-size:small;
+    color: rgb(8, 0, 124);
+}
+.clinks:visited{
+    color:rgb(64, 0, 124)
+}
+h2:hover{
+    color: #005c00;
+}
+ul>li{
+    color:rgb(0,124,41)
+}
+
+p{
+    color:rgb(0, 124, 41)
+}
+.myimg{
+    width: contain;
+    border:5px solid rgba(119, 160, 160, 0.534);
+}
+.myimg:hover{
+    transform:scale(200%)
+}
+@keyframes red-to-black{
+    0%{
+        color: red;
+        transform: translate(0px,0px);
+    }
+    25%{
+        color: yellow;
+        transform: translate(10px,0px);
+    }
+    50%{
+        color: black;
+        transform: translate(10px,10px);
+    }
+    75%{
+        color:blueviolet;
+        transform: translate(0px,10px)
+    }
+    100%{
+        color:red;
+        transform: translate(0px,0px)
+    }
+   }
+.datline{
+    font-size: xx-large;
+    animation-name:red-to-black;
+    animation-duration: 1s;
+    animation-timing-function:linear;
+    animation-iteration-count:infinite;
+    animation-direction: linear;
+}
+.tlinks:link{
+    color: green
+}
+.tlinks:visited{
+    color:green
+}
