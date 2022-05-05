@@ -37,12 +37,9 @@ body{
 }
 h2 {
     display: inline;
-    color: rgba(0, 124, 41)
+    color: white
 }
 
-#line{
-    color:rgba(0, 124, 41);
-}
 .clinks:link{
     font-size:small;
     color: rgb(8, 0, 124);
@@ -53,12 +50,9 @@ h2 {
 h2:hover{
     color: #005c00;
 }
-ul>li{
-    color:rgb(0,124,41)
-}
 
 p{
-    color:rgba(124, 122, 0, 0.959)
+    color:rgb(0, 0, 0)
 }
 .myimg{
     width: contain;
