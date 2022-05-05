@@ -30,7 +30,7 @@ body{
 }
 .title1{
     display: inline;  
-    color: rgba(0, 124, 41)
+    color: rgb(255, 255, 255)
 }
 .title1:hover{
     color: rgb(0, 255, 0);
