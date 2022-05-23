@@ -1,20 +1,22 @@
-#body1{
+.header{
+    margin:0px;
+}
+
+body{
     background-image: url("images/Pic_2019_01_27_15_15_57.jpg");
     background-size: 1000px, 1500px ;
     background-repeat:no-repeat;
     background-position:center 1px;
     text-align: justify;
     font-family: "charm", cursive;
-    margin: "none";
-    background-color:rgb(0, 0, 0);
+    margin:0px;
+    background-color:rgb(59, 109, 117);
+    height:750px;
 }
  
 a {
     text-decoration:none;
-}
-body{
-     background-color:rgb(0, 0, 0);
- }   
+}  
 
 #menu{
     margin: 10px;
@@ -24,36 +26,43 @@ body{
     
 }
 .item{
-    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-family:sans-serif;
     padding:5px;
     margin: 10px;
     width:80px;
     text-align: center;
     font-weight: 10;
-    background-color:rgb(0, 0, 0);
+    background-color:rgb(255, 255, 255);
     border-radius:10px;
     text-transform: capitalize;
     
 }
+
+.item:hover{
+    background-color:rgb(0, 29, 73);
+}
 .title1{
+    font-family:cursive;
     display: inline;  
-    color: rgb(0, 0, 0)
+    color: #ffffff
 }
 
 .title1:hover{
-    color: rgb(0, 255, 0);
+    color: rgb(0, 29, 73);
 }
 .title2{
+    font-family:cursive;
     display: inline;  
     color: rgb(255, 255, 255)
 }
 
 .title2:hover{
-    color: rgb(0, 255, 0);
+    color: rgb(0, 29, 73);
 }
 h2 {
     display: inline;
-    color: white
+    color: white;
+    
 }
 
 .clinks:link{
@@ -67,15 +76,17 @@ h2:hover{
     color: #005c00;
 }
 
-p{
-    color:rgb(255, 255, 255)
-}
 .myimg{
     width:200px;
-    border:10px solid black;
+    border:5px solid rgb(255, 255, 255);
     border-radius:10px;
+    display:block;
+    margin-right:auto;
+    margin-left:auto;
 }
-
+#myimg{
+    display:flex;
+}
 @keyframes red-to-black{
     0%{ font-size:0px;
         color: red;
@@ -83,11 +94,11 @@ p{
     }
     12%{
         font-size:large;
-        color:green;
+        color:rgb(0, 46, 0);
         transform: translate(0px,0px)
     }
     25%{font-size:xx-large;
-        color: yellow;
+        color: rgb(68, 68, 0);
         transform: translate(10px,0px);
     }
     50%{
@@ -95,15 +106,19 @@ p{
         transform: translate(10px,10px);
     }
     75%{
-        color:blueviolet;
+        color:rgb(33, 0, 63);
         transform: translate(0px,10px)
     }
     100%{
-        color:red;
+        color:rgb(114, 2, 2);
         transform: translate(0px,0px)
     }
    }
 .datline{
+    margin:0px;
+    color:rgb(0, 61, 0);
+    font-family:-apple-system;
+    font-weight:bold;
     font-size: xx-large;
     animation-name:red-to-black;
     animation-duration: 2s;
@@ -111,12 +126,81 @@ p{
     animation-iteration-count:infinite;
     animation-direction: linear;
 }
+#datline{
+    height:100px;
+    display:block;
+    margin-left:auto;
+    margin-right:auto;
+}
+.datline:hover{
+    animation-duration:0s;
+}
 .tlinks:link{
     color: rgb(0, 119, 128);
 }
 .tlinks:visited{
     color:rgb(0, 124, 128)
 }
-p{
+p{  
+    color:rgb(255, 255, 255);
+    text-align:center;
+    font-family:'Gill Sans';
     font-size:large;
+}
+#CP{display:block;
+    margin-left:auto;
+    margin-right:auto;
+    background-color:rgba(59, 109, 117, 0.808);
+
+}
+.CP{
+    color:rgb(0, 29,73);
+    font-size:x-large;
+    font-weight:bold;
+}
+#poc{
+    background-color:rgba(255, 255, 255, 0.486);
+    width:300px;
+    display:block;
+    margin-right:auto;
+    margin-left:auto;
+    border-radius:10px;
+    bottom:0;
+}
+.poct{
+    color: rgb(0, 29, 73);
+    text-align:center;
+    font-family:cursive;
+    
+}
+
+.fab{
+    margin:10px;
+    padding:15px;
+    font-size:30px;
+    width:15px;
+    text-align:center;
+    text-decoration:none;
+    
+}
+
+.fa-facebook{
+
+    color:rgb(4, 119, 196);
+}
+
+.fa-twitter{
+
+    color:white;
+}
+
+.fa-instagram{color: transparent;
+    background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+    background: -webkit-radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+    background-clip: text;
+    -webkit-background-clip: text;
+}
+
+.fa-linkedin{
+    color:rgb(3, 80, 223);
 }
