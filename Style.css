@@ -115,7 +115,7 @@ h2:hover{
     }
    }
 .datline{
-    margin:0px;
+    margin:10px;
     color:rgb(0, 61, 0);
     font-family:-apple-system;
     font-weight:bold;
@@ -128,9 +128,7 @@ h2:hover{
 }
 #datline{
     height:100px;
-    display:block;
-    margin-left:auto;
-    margin-right:auto;
+    
 }
 .datline:hover{
     animation-duration:0s;
@@ -191,7 +189,7 @@ p{
 
 .fa-twitter{
 
-    color:white;
+    color:rgb(110, 229, 233);
 }
 
 .fa-instagram{color: transparent;
