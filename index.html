@@ -15,7 +15,6 @@
     </head>
 
     <body>
-        <section class="header">
             
             <center>
                 <h1 class="title1">Welcome to my website!</h1>
@@ -24,6 +23,9 @@
                 <div id="menu">
                     <div class="item"><a class="tlinks" href="My html website04.html">Interests</a></div>
                     <div class="item"><a class="tlinks" href="My html website03.html">About</a></div>  
+                </div>
+                <div id="mobilemenu">
+                    <div class="item" onclick="toggleMenu()">Menu</div>    
                 </div>
                 <div id="datline">
                     <p class="datline">Developing by all means!</p>
@@ -45,8 +47,18 @@
                 <a href="https://za.linkedin.com/in/tshepiso-m-599655213" class ="fab fa-linkedin"></a>
 
             </div>
-        </section>
-        </div>             
+    <div id="mmenu" class="m">
+        <div class="item" onclick="toggleMenu()">Home</div>
+        <div class="item"><a class="tlinks" href="My html website04.html">Interests</a></div>
+        <div class="item"><a class="tlinks" href="My html website03.html">About</a></div> 
+    </div>   
+    <script>
+        function toggleMenu() {
+            var element=
+            document.getElementById("mmenu");
+            element.classList.toggle("mmenubody");
+        }
+    </script>          
     </body>
 
 </html>
