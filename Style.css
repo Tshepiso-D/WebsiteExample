@@ -11,6 +11,19 @@ body{
     height:750px;
 }
 
+
+#body2{
+    background-image: none;
+    background-size: 1000px;
+    background-repeat:no-repeat;
+    background-position:center 1px;
+    text-align: justify;
+    font-family: "charm", cursive;
+    margin:0px;
+    background-color:rgb(59, 109, 117);
+    height:750px;
+}
+
 #mmenubody{
     display:none;
 }
@@ -32,7 +45,7 @@ a {
     font-family:sans-serif;
     padding:5px;
     margin: 10px;
-    width:80px;
+    width:150px;
     text-align: center;
     font-weight: 10;
     background-color:rgb(255, 255, 255);
