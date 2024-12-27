@@ -34,7 +34,7 @@ a {
 #menu{
     margin: 10px;
     display: flex;
-    flex-direction: row;
+    flex-direction: row-reverse;
     width:80%;
     
 }
